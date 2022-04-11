@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C698A2AC28041B5500F7696E /* ChattingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2AB28041B5500F7696E /* ChattingApp.swift */; };
-		C698A2AE28041B5500F7696E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2AD28041B5500F7696E /* ContentView.swift */; };
 		C698A2B028041B5900F7696E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C698A2AF28041B5900F7696E /* Assets.xcassets */; };
 		C698A2B328041B5900F7696E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C698A2B228041B5900F7696E /* Preview Assets.xcassets */; };
 		C698A2BD28041B5900F7696E /* ChattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2BC28041B5900F7696E /* ChattingTests.swift */; };
@@ -16,6 +15,9 @@
 		C698A2C928041B5900F7696E /* ChattingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2C828041B5900F7696E /* ChattingUITestsLaunchTests.swift */; };
 		C698A2D928041D9D00F7696E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C698A2D828041D9D00F7696E /* .swiftlint.yml */; };
 		C698A2DC280421F800F7696E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C698A2DB280421F800F7696E /* ComposableArchitecture */; };
+		C698A2E528045E7000F7696E /* ChatRoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2E428045E7000F7696E /* ChatRoomListView.swift */; };
+		C698A2EA2804609B00F7696E /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2E92804609B00F7696E /* NavigationBarView.swift */; };
+		C698A2ED280462B400F7696E /* TextString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2EC280462B400F7696E /* TextString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		C698A2A828041B5500F7696E /* Chatting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C698A2AB28041B5500F7696E /* ChattingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingApp.swift; sourceTree = "<group>"; };
-		C698A2AD28041B5500F7696E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C698A2AF28041B5900F7696E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C698A2B228041B5900F7696E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C698A2B828041B5900F7696E /* ChattingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,9 @@
 		C698A2C628041B5900F7696E /* ChattingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingUITests.swift; sourceTree = "<group>"; };
 		C698A2C828041B5900F7696E /* ChattingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C698A2D828041D9D00F7696E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C698A2E428045E7000F7696E /* ChatRoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomListView.swift; sourceTree = "<group>"; };
+		C698A2E92804609B00F7696E /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		C698A2EC280462B400F7696E /* TextString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				C698A2DD2804222000F7696E /* Model */,
 				C698A2DF2804223000F7696E /* Enum */,
 				C698A2E02804224100F7696E /* Extension */,
+				C698A2EB280462A100F7696E /* Constants */,
 				C698A2E2280456D100F7696E /* Asset */,
 			);
 			path = Chatting;
@@ -145,7 +150,8 @@
 		C698A2DE2804222500F7696E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C698A2AD28041B5500F7696E /* ContentView.swift */,
+				C698A2E628045F4B00F7696E /* Custom */,
+				C698A2E328045E6000F7696E /* ChatRoomList */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +184,30 @@
 				C698A2B128041B5900F7696E /* Preview Content */,
 			);
 			path = Asset;
+			sourceTree = "<group>";
+		};
+		C698A2E328045E6000F7696E /* ChatRoomList */ = {
+			isa = PBXGroup;
+			children = (
+				C698A2E428045E7000F7696E /* ChatRoomListView.swift */,
+			);
+			path = ChatRoomList;
+			sourceTree = "<group>";
+		};
+		C698A2E628045F4B00F7696E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C698A2E92804609B00F7696E /* NavigationBarView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C698A2EB280462A100F7696E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C698A2EC280462B400F7696E /* TextString.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,8 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C698A2AE28041B5500F7696E /* ContentView.swift in Sources */,
+				C698A2E528045E7000F7696E /* ChatRoomListView.swift in Sources */,
 				C698A2AC28041B5500F7696E /* ChattingApp.swift in Sources */,
+				C698A2EA2804609B00F7696E /* NavigationBarView.swift in Sources */,
+				C698A2ED280462B400F7696E /* TextString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
