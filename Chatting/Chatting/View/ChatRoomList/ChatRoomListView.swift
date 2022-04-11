@@ -19,11 +19,10 @@ struct ChatRoomListView: View {
       ScrollView {
         VStack(spacing: 5) {
           ForEach(1..<50) { _ in
-            // TODO: ChatRoomListRowView 인스턴스 생성
-            EmptyView()
-//              .onTapGesture {
-//                self.isRowClicked = true
-//              }
+            ChatRoomListRowView()
+              .onTapGesture {
+                self.isRowClicked = true
+              }
           }
         }
       }
@@ -32,6 +31,7 @@ struct ChatRoomListView: View {
       isPresented: self.$isRowClicked,
       content: {
         // TODO: ChatRoomView 인스턴스 생성
+        EmptyView()
       }
     )
   }

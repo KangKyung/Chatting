@@ -18,6 +18,11 @@
 		C698A2E528045E7000F7696E /* ChatRoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2E428045E7000F7696E /* ChatRoomListView.swift */; };
 		C698A2EA2804609B00F7696E /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2E92804609B00F7696E /* NavigationBarView.swift */; };
 		C698A2ED280462B400F7696E /* TextString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2EC280462B400F7696E /* TextString.swift */; };
+		C698A2EF2804642600F7696E /* ChatRoomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2EE2804642600F7696E /* ChatRoomListRowView.swift */; };
+		C698A2F12804645600F7696E /* HorizonDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2F02804645600F7696E /* HorizonDividerView.swift */; };
+		C698A2F3280464BB00F7696E /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2F2280464BB00F7696E /* Image+.swift */; };
+		C698A2F52804675F00F7696E /* ChatRoomListRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2F42804675F00F7696E /* ChatRoomListRowModel.swift */; };
+		C698A2F72804684C00F7696E /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A2F62804684C00F7696E /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		C698A2E428045E7000F7696E /* ChatRoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomListView.swift; sourceTree = "<group>"; };
 		C698A2E92804609B00F7696E /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		C698A2EC280462B400F7696E /* TextString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextString.swift; sourceTree = "<group>"; };
+		C698A2EE2804642600F7696E /* ChatRoomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomListRowView.swift; sourceTree = "<group>"; };
+		C698A2F02804645600F7696E /* HorizonDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonDividerView.swift; sourceTree = "<group>"; };
+		C698A2F2280464BB00F7696E /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		C698A2F42804675F00F7696E /* ChatRoomListRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomListRowModel.swift; sourceTree = "<group>"; };
+		C698A2F62804684C00F7696E /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +153,7 @@
 		C698A2DD2804222000F7696E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C698A2F42804675F00F7696E /* ChatRoomListRowModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +177,8 @@
 		C698A2E02804224100F7696E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C698A2F2280464BB00F7696E /* Image+.swift */,
+				C698A2F62804684C00F7696E /* Color+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -190,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				C698A2E428045E7000F7696E /* ChatRoomListView.swift */,
+				C698A2EE2804642600F7696E /* ChatRoomListRowView.swift */,
 			);
 			path = ChatRoomList;
 			sourceTree = "<group>";
@@ -198,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				C698A2E92804609B00F7696E /* NavigationBarView.swift */,
+				C698A2F02804645600F7696E /* HorizonDividerView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -369,9 +384,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C698A2E528045E7000F7696E /* ChatRoomListView.swift in Sources */,
+				C698A2F72804684C00F7696E /* Color+.swift in Sources */,
 				C698A2AC28041B5500F7696E /* ChattingApp.swift in Sources */,
+				C698A2F12804645600F7696E /* HorizonDividerView.swift in Sources */,
+				C698A2EF2804642600F7696E /* ChatRoomListRowView.swift in Sources */,
+				C698A2F3280464BB00F7696E /* Image+.swift in Sources */,
 				C698A2EA2804609B00F7696E /* NavigationBarView.swift in Sources */,
 				C698A2ED280462B400F7696E /* TextString.swift in Sources */,
+				C698A2F52804675F00F7696E /* ChatRoomListRowModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
