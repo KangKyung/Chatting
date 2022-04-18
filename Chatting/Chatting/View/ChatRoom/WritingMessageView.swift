@@ -27,6 +27,7 @@ struct WritingMessageView: View {
           .onTapGesture {
             // TODO: send message
             self.messageTextString = ""
+            hideKeyboard()
           }
       }
       .frame(height: 30)

@@ -18,14 +18,19 @@ struct ChatRoomView: View {
   }
   
   var body: some View {
-    VStack {
-      NavigationBarView(
-        titleString: self.titleModel.nameString,
-        subTitleString: self.titleModel.companyAndJobString,
-        leftButton: ImageButton(type: .close, clickEvent: self.closeView)
-      )
-      
-      ChatListView(modelList: self.chatModels)
+    VStack(spacing: 0) {
+      VStack(spacing: 0) {
+        NavigationBarView(
+          titleString: self.titleModel.nameString,
+          subTitleString: self.titleModel.companyAndJobString,
+          leftButton: ImageButton(type: .close, clickEvent: self.closeView)
+        )
+        
+        ChatListView(modelList: self.chatModels)
+      }
+      .onTapGesture {
+        hideKeyboard()
+      }
       
       WritingMessageView()
     }
