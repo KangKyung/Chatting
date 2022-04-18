@@ -33,6 +33,7 @@
 		C6B9B5C0280D2AE00061636B /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5BF280D2AE00061636B /* ChatBubbleView.swift */; };
 		C6B9B5C2280D2AF60061636B /* ChatDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5C1280D2AF60061636B /* ChatDateView.swift */; };
 		C6B9B5C4280D34860061636B /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5C3280D34860061636B /* View+.swift */; };
+		C6B9B5C6280D49920061636B /* WritingMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5C5280D49920061636B /* WritingMessageView.swift */; };
 		C6BDB98E280830FE00F3D5C9 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDB98D280830FE00F3D5C9 /* ChatRoomView.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		C6B9B5BF280D2AE00061636B /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
 		C6B9B5C1280D2AF60061636B /* ChatDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDateView.swift; sourceTree = "<group>"; };
 		C6B9B5C3280D34860061636B /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		C6B9B5C5280D49920061636B /* WritingMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingMessageView.swift; sourceTree = "<group>"; };
 		C6BDB98D280830FE00F3D5C9 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -262,6 +264,7 @@
 				C6B9B5BD280D2ACC0061636B /* ChatView.swift */,
 				C6B9B5BF280D2AE00061636B /* ChatBubbleView.swift */,
 				C6B9B5C1280D2AF60061636B /* ChatDateView.swift */,
+				C6B9B5C5280D49920061636B /* WritingMessageView.swift */,
 			);
 			path = ChatRoom;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B9B5C6280D49920061636B /* WritingMessageView.swift in Sources */,
 				C6B9B5C0280D2AE00061636B /* ChatBubbleView.swift in Sources */,
 				C698A2E528045E7000F7696E /* ChatRoomListView.swift in Sources */,
 				C6B9B5C2280D2AF60061636B /* ChatDateView.swift in Sources */,

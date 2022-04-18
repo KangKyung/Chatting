@@ -26,6 +26,8 @@ struct ChatRoomView: View {
       )
       
       ChatListView(modelList: self.chatModels)
+      
+      WritingMessageView()
     }
   }
 }

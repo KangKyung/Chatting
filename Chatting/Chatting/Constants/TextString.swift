@@ -10,4 +10,5 @@ import Foundation
 enum TextString {
   
   static let chatRoomListTitle: String = "채팅방 리스트"
+  static let messagePlaceholder: String = "메시지 입력"
 }
