@@ -11,23 +11,21 @@ struct ChatRoomView: View {
   
   @Binding var isViewAppear: Bool
   let titleModel: ChatRoomListRowModel = .dummy
+  let chatModels: [ChatModel] = ChatModel.dummys
   
   private func closeView() {
     self.isViewAppear = false
   }
   
   var body: some View {
-    VStack(spacing: 40) {
+    VStack {
       NavigationBarView(
         titleString: self.titleModel.nameString,
         subTitleString: self.titleModel.companyAndJobString,
         leftButton: ImageButton(type: .close, clickEvent: self.closeView)
       )
       
-      // TODO: ChatListView 구현
-      VStack {
-        Spacer()
-      }
+      ChatListView(modelList: self.chatModels)
     }
   }
 }

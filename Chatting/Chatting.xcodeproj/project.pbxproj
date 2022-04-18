@@ -26,6 +26,13 @@
 		C6B9B5B2280CFEFB0061636B /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5B1280CFEFB0061636B /* ImageButton.swift */; };
 		C6B9B5B4280CFF480061636B /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5B3280CFF480061636B /* ButtonType.swift */; };
 		C6B9B5B6280D02030061636B /* ChatRoomViewTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5B5280D02030061636B /* ChatRoomViewTitleModel.swift */; };
+		C6B9B5B8280D29FC0061636B /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5B7280D29FC0061636B /* ChatModel.swift */; };
+		C6B9B5BA280D2A1B0061636B /* ChatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5B9280D2A1B0061636B /* ChatType.swift */; };
+		C6B9B5BC280D2AB10061636B /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5BB280D2AB10061636B /* ChatListView.swift */; };
+		C6B9B5BE280D2ACC0061636B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5BD280D2ACC0061636B /* ChatView.swift */; };
+		C6B9B5C0280D2AE00061636B /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5BF280D2AE00061636B /* ChatBubbleView.swift */; };
+		C6B9B5C2280D2AF60061636B /* ChatDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5C1280D2AF60061636B /* ChatDateView.swift */; };
+		C6B9B5C4280D34860061636B /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B9B5C3280D34860061636B /* View+.swift */; };
 		C6BDB98E280830FE00F3D5C9 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDB98D280830FE00F3D5C9 /* ChatRoomView.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +75,13 @@
 		C6B9B5B1280CFEFB0061636B /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
 		C6B9B5B3280CFF480061636B /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		C6B9B5B5280D02030061636B /* ChatRoomViewTitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewTitleModel.swift; sourceTree = "<group>"; };
+		C6B9B5B7280D29FC0061636B /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		C6B9B5B9280D2A1B0061636B /* ChatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatType.swift; sourceTree = "<group>"; };
+		C6B9B5BB280D2AB10061636B /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		C6B9B5BD280D2ACC0061636B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		C6B9B5BF280D2AE00061636B /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		C6B9B5C1280D2AF60061636B /* ChatDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDateView.swift; sourceTree = "<group>"; };
+		C6B9B5C3280D34860061636B /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		C6BDB98D280830FE00F3D5C9 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +177,7 @@
 			children = (
 				C698A2F42804675F00F7696E /* ChatRoomListRowModel.swift */,
 				C6B9B5B5280D02030061636B /* ChatRoomViewTitleModel.swift */,
+				C6B9B5B7280D29FC0061636B /* ChatModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				C6B9B5B3280CFF480061636B /* ButtonType.swift */,
+				C6B9B5B9280D2A1B0061636B /* ChatType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -190,6 +206,7 @@
 			children = (
 				C698A2F2280464BB00F7696E /* Image+.swift */,
 				C698A2F62804684C00F7696E /* Color+.swift */,
+				C6B9B5C3280D34860061636B /* View+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -241,6 +258,10 @@
 			isa = PBXGroup;
 			children = (
 				C6BDB98D280830FE00F3D5C9 /* ChatRoomView.swift */,
+				C6B9B5BB280D2AB10061636B /* ChatListView.swift */,
+				C6B9B5BD280D2ACC0061636B /* ChatView.swift */,
+				C6B9B5BF280D2AE00061636B /* ChatBubbleView.swift */,
+				C6B9B5C1280D2AF60061636B /* ChatDateView.swift */,
 			);
 			path = ChatRoom;
 			sourceTree = "<group>";
@@ -403,16 +424,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B9B5C0280D2AE00061636B /* ChatBubbleView.swift in Sources */,
 				C698A2E528045E7000F7696E /* ChatRoomListView.swift in Sources */,
+				C6B9B5C2280D2AF60061636B /* ChatDateView.swift in Sources */,
 				C6B9B5B4280CFF480061636B /* ButtonType.swift in Sources */,
 				C698A2F72804684C00F7696E /* Color+.swift in Sources */,
+				C6B9B5B8280D29FC0061636B /* ChatModel.swift in Sources */,
+				C6B9B5BC280D2AB10061636B /* ChatListView.swift in Sources */,
 				C698A2AC28041B5500F7696E /* ChattingApp.swift in Sources */,
+				C6B9B5C4280D34860061636B /* View+.swift in Sources */,
 				C698A2F12804645600F7696E /* HorizonDividerView.swift in Sources */,
 				C698A2EF2804642600F7696E /* ChatRoomListRowView.swift in Sources */,
 				C6B9B5B6280D02030061636B /* ChatRoomViewTitleModel.swift in Sources */,
 				C698A2F3280464BB00F7696E /* Image+.swift in Sources */,
 				C6B9B5B2280CFEFB0061636B /* ImageButton.swift in Sources */,
 				C698A2EA2804609B00F7696E /* NavigationBarView.swift in Sources */,
+				C6B9B5BE280D2ACC0061636B /* ChatView.swift in Sources */,
+				C6B9B5BA280D2A1B0061636B /* ChatType.swift in Sources */,
 				C6BDB98E280830FE00F3D5C9 /* ChatRoomView.swift in Sources */,
 				C698A2ED280462B400F7696E /* TextString.swift in Sources */,
 				C698A2F52804675F00F7696E /* ChatRoomListRowModel.swift in Sources */,
