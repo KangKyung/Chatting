@@ -30,8 +30,7 @@ struct ChatRoomListView: View {
     .fullScreenCover(
       isPresented: self.$isRowClicked,
       content: {
-        // TODO: ChatRoomView 인스턴스 생성
-        EmptyView()
+        ChatRoomView(isViewAppear: self.$isRowClicked)
       }
     )
   }
